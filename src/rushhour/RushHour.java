@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Car {
+class Car {
 	public int x;
 	public int y;
 	public char name;
@@ -43,7 +43,7 @@ public class RushHour
 		try (Scanner myReader = new Scanner(myObj)) {
 			while (myReader.hasNextLine()) {
 				String data = myReader.nextLine();
-				for (char ch : str.toCharArray()) {
+				for (char ch : data.toCharArray()) {
 					System.out.println(ch);
 				}
 				System.out.println(data);
