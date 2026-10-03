@@ -1,3 +1,4 @@
+package rushhour;
 import java.io.FileNotFoundException;  // Import this class to handle errors
 
 import rushhour.IllegalMoveException;
