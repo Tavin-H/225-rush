@@ -3,7 +3,6 @@ import java.io.FileNotFoundException;  // Import this class to handle errors
 import rushhour.IllegalMoveException;
 import rushhour.RushHour;
 
-
 public class TestRushHour {
     public static void testReadFromFile1() {
         try {
